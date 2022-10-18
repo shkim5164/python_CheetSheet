@@ -117,6 +117,21 @@ else:
     
 ```
 
+2. range
+- https://codechacha.com/ko/python-range/
+
+```python
+
+range(start, stop, step)
+# ex) 하나씩 작아지는 range
+# range(10, -1, -1)
+
+# list()로 range를 list로 반환도 가능
+result = list(range(1, 10, 2))
+print(result)
+# [1, 3, 5, 7, 9]
+```
+
 
 ## 정렬
 
